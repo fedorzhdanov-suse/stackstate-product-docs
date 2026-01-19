@@ -126,6 +126,11 @@ Installing {stackstate-product-name} Helm charts in an air-gapped environment re
 Recommended method::
 +
 --
+[NOTE]
+=====
+The `global.suseObservability` configuration method is available starting from version `2.8.0`. For earlier versions, use the legacy method.
+=====
+
 Create a `values.yaml` file with your configuration, including the private registry:
 
 [source,yaml]

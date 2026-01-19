@@ -250,6 +250,11 @@ helm repo update
 Recommended method::
 +
 --
+[NOTE]
+=====
+The `global.suseObservability` configuration method is available starting from version `2.8.0`. For earlier versions, use the legacy method.
+=====
+
 Create a `values.yaml` file with your configuration:
 
 [source,yaml]
